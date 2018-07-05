@@ -1,0 +1,231 @@
+/* line 3, scss/home.scss */
+.section-person .icon, .section-exp .icon, .section-abaut .icon {
+  width: 45px;
+  height: 45px; }
+
+/* line 7, scss/home.scss */
+.section-person, .section-exp, .section-abaut {
+  text-align: center;
+  padding-top: 60px; }
+
+/* line 17, scss/home.scss */
+.wrap {
+  margin: 0 auto;
+  max-width: 140rem;
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media (max-width: 720px) {
+    /* line 17, scss/home.scss */
+    .wrap {
+      padding-left: 3%;
+      padding-right: 3%; } }
+  /* line 27, scss/home.scss */
+  .wrap .text {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px; }
+
+/* line 35, scss/home.scss */
+.navigate {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px; }
+  /* line 39, scss/home.scss */
+  .navigate a {
+    color: #4e4e4e; }
+  /* line 42, scss/home.scss */
+  .navigate a:hover, .navigate a:active {
+    transition: 200ms;
+    color: #0095c2; }
+
+/* line 47, scss/home.scss */
+.nav-item {
+  text-transform: uppercase; }
+
+/* line 51, scss/home.scss */
+.bg-photo {
+  background: url("../img/bg-photo.jpg") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 180px;
+  position: relative;
+  overflow: hidden; }
+  /* line 58, scss/home.scss */
+  .bg-photo .blurring {
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0px -10px 70px 35px #fff; }
+    /* line 66, scss/home.scss */
+    .bg-photo .blurring .text {
+      position: absolute;
+      top: -60px;
+      left: 0;
+      right: 0;
+      color: #000;
+      font-size: 70px;
+      text-align: center;
+      font-weight: 100; }
+
+/* line 80, scss/home.scss */
+.section-person .icon {
+  background: url("../img/icon1.png");
+  background-size: cover; }
+
+/* line 87, scss/home.scss */
+.section-person #mysel {
+  text-align: center;
+  text-align-last: center;
+  width: 310px;
+  height: 50px; }
+  @media (max-width: 720px) {
+    /* line 87, scss/home.scss */
+    .section-person #mysel {
+      width: 240px; } }
+
+/* line 96, scss/home.scss */
+.section-person .text {
+  margin-bottom: 40px; }
+
+/* line 99, scss/home.scss */
+.section-person .form-control {
+  text-align: center;
+  width: 510px;
+  height: 50px;
+  opacity: 0.5;
+  font-size: 18px;
+  margin-top: 20px; }
+  @media (max-width: 720px) {
+    /* line 99, scss/home.scss */
+    .section-person .form-control {
+      width: 340px; } }
+  /* line 12, scss/home.scss */
+  .section-person .form-control::-webkit-input-placeholder {
+    text-indent: 0px;
+    transition: text-indent 300ms; }
+  /* line 13, scss/home.scss */
+  .section-person .form-control:-moz-placeholder {
+    text-indent: 0px;
+    transition: text-indent 300ms; }
+  /* line 14, scss/home.scss */
+  .section-person .form-control::-moz-placeholder {
+    text-indent: 0px;
+    transition: text-indent 300ms; }
+  /* line 15, scss/home.scss */
+  .section-person .form-control:-ms-input-placeholder {
+    text-indent: 0px;
+    transition: text-indent 300ms; }
+  /* line 113, scss/home.scss */
+  .section-person .form-control:focus {
+    border-color: #380180;
+    box-shadow: none; }
+    /* line 12, scss/home.scss */
+    .section-person .form-control:focus::-webkit-input-placeholder {
+      text-indent: -700px; }
+    /* line 13, scss/home.scss */
+    .section-person .form-control:focus:-moz-placeholder {
+      text-indent: -700px; }
+    /* line 14, scss/home.scss */
+    .section-person .form-control:focus::-moz-placeholder {
+      text-indent: -700px; }
+    /* line 15, scss/home.scss */
+    .section-person .form-control:focus:-ms-input-placeholder {
+      text-indent: -700px; }
+
+/* line 125, scss/home.scss */
+.section-exp .icon {
+  background: url("../img/icon2.png");
+  background-size: cover; }
+
+/* line 130, scss/home.scss */
+.section-exp .custom-control {
+  text-align: left;
+  margin-bottom: 5px;
+  cursor: pointer; }
+  @media (max-width: 720px) {
+    /* line 130, scss/home.scss */
+    .section-exp .custom-control {
+      margin-left: 30%; } }
+
+/* line 138, scss/home.scss */
+.section-exp .text {
+  margin-bottom: 40px; }
+
+/* line 146, scss/home.scss */
+.section-abaut .icon {
+  background: url("../img/icon3.png");
+  background-size: cover; }
+
+/* line 151, scss/home.scss */
+.section-abaut .text {
+  margin-bottom: 10px; }
+
+/* line 154, scss/home.scss */
+.section-abaut .text2 {
+  margin: 0 auto;
+  max-width: 500px; }
+
+/* line 158, scss/home.scss */
+.section-abaut textarea {
+  resize: none;
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 55px; }
+  @media (max-width: 720px) {
+    /* line 158, scss/home.scss */
+    .section-abaut textarea {
+      width: 340px; } }
+  /* line 12, scss/home.scss */
+  .section-abaut textarea::-webkit-input-placeholder {
+    opacity: 0.5;
+    font-size: 18px;
+    text-indent: 0px;
+    transition: text-indent 400ms; }
+  /* line 13, scss/home.scss */
+  .section-abaut textarea:-moz-placeholder {
+    opacity: 0.5;
+    font-size: 18px;
+    text-indent: 0px;
+    transition: text-indent 400ms; }
+  /* line 14, scss/home.scss */
+  .section-abaut textarea::-moz-placeholder {
+    opacity: 0.5;
+    font-size: 18px;
+    text-indent: 0px;
+    transition: text-indent 400ms; }
+  /* line 15, scss/home.scss */
+  .section-abaut textarea:-ms-input-placeholder {
+    opacity: 0.5;
+    font-size: 18px;
+    text-indent: 0px;
+    transition: text-indent 400ms; }
+  /* line 12, scss/home.scss */
+  .section-abaut textarea:focus::-webkit-input-placeholder {
+    text-indent: -700px; }
+  /* line 13, scss/home.scss */
+  .section-abaut textarea:focus:-moz-placeholder {
+    text-indent: -700px; }
+  /* line 14, scss/home.scss */
+  .section-abaut textarea:focus::-moz-placeholder {
+    text-indent: -700px; }
+  /* line 15, scss/home.scss */
+  .section-abaut textarea:focus:-ms-input-placeholder {
+    text-indent: -700px; }
+
+/* line 179, scss/home.scss */
+.section-abaut .btn-primary {
+  background: #373fb4;
+  border-color: #373fb4;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-size: 16px;
+  margin-bottom: 60px; }
+  /* line 186, scss/home.scss */
+  .section-abaut .btn-primary:hover {
+    box-shadow: none;
+    background: #181d68;
+    border-color: #181d68; }

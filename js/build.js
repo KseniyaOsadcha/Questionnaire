@@ -1,0 +1,1 @@
+for(var Sel=document.getElementById("mysel"),date=new Date,year=date.getFullYear(),startYear=1957,length=year-startYear,i=0;i<=length;i++)Sel.options[i]=new Option(startYear+i,startYear+i);$(document).ready(function(){var t=$("html, body");$('a[href*="#"]').click(function(){return t.animate({scrollTop:$($.attr(this,"href")).offset().top},500),!1})});

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <section class="wrap">
+    <nav class="navigate">
+      <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#ls">личная информация</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#exp">опыт</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ab">о себе</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <section>
+    <div class="bg-photo">
+      <div class="blurring">
+        <div class="text">Анкета</div>
+      </div>
+    </div>
+  </section>
+  <section class="wrap section-person">
+    <div class="icon mx-auto"></div>
+    <div class="text" id="ls">Личная информация</div>
+    <input type="text" class="form-control mx-auto"  placeholder="ФИО">
+    <select class="form-control custom-select mx-auto" id="mysel"></select>
+    <input type="text" class="form-control mx-auto" id="location" placeholder="Место проживания">
+    <input type="text" class="form-control mx-auto"  placeholder="Skype">
+    <input type="email" class="form-control mx-auto" aria-describedby="emailHelp" placeholder="E-mail">
+  </section>
+  <section class="wrap section-exp">
+      <div class="icon mx-auto"></div>
+      <div class="text" id="exp">Расскажите о своем опыте</div>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-xs-12"></div>
+            <div class="col-md-3 col-xs-12">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">БЭМ/ООCSS</label>
+                </div>   
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                    <label class="custom-control-label" for="customCheck2">Stylus/LESS/SASS</label>
+                </div> 
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck3">
+                    <label class="custom-control-label" for="customCheck3">Работаю с SVG</label>
+                </div> 
+            </div>
+            <div class="col-md-3 col-xs-12">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck4">
+                    <label class="custom-control-label" for="customCheck4">Верстаю семантично</label>
+                </div>   
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck5">
+                    <label class="custom-control-label" for="customCheck5">ES2015</label>
+                </div> 
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck6">
+                    <label class="custom-control-label" for="customCheck6">Gulp/GRUNT</label>
+                </div>             </div>
+            <div class="col-md-3 col-xs-12">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck7">
+                    <label class="custom-control-label" for="customCheck7">Webpack</label>
+                </div>   
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck8">
+                    <label class="custom-control-label" for="customCheck8">jQuery</label>
+                </div> 
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck9">
+                    <label class="custom-control-label" for="customCheck9">Использую Git</label>
+                </div>          
+              </div>
+          </div>
+        </div>
+
+  </section>
+  <section class="wrap section-abaut">
+      <div class="icon mx-auto"></div>
+      <div class="text" id="ab">Расскажите о себе</div>
+      <div class="text2">
+         Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от нас
+      </div>
+      <textarea class="form-control" rows="7" placeholder="Понравилось тем, что..."></textarea>
+      <button type="submit" class="btn btn-lg btn-primary">Готово</button>
+
+    </section>
+    <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+    <script src="./js/build.js"></script>
+
+</body>
+</html>
