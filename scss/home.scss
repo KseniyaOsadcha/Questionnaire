@@ -14,6 +14,9 @@
     &::-moz-placeholder          { @content; }
     &:-ms-input-placeholder      { @content; }  
   }
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
 .wrap{
     margin: 0 auto;
     max-width: $mainContainer;
