@@ -92,32 +92,35 @@ body {
   display: inline-block;
   margin: 0 auto;
   text-align: center;
-  padding: 3px;
+  width: 310px;
+  padding: 10px;
   opacity: 0.5; }
 
-/* line 103, scss/home.scss */
+/* line 104, scss/home.scss */
 .section-person #up {
   font-size: 12.5px;
   color: #181d68;
-  padding: 6px;
+  padding: 10px;
+  padding-top: 14px;
   border: 1px solid #4e4e4e34;
   border-radius: 5px;
   border-left: none;
   display: none;
   cursor: pointer; }
 
-/* line 112, scss/home.scss */
+/* line 114, scss/home.scss */
 .section-person #down {
   font-size: 12.5px;
   color: #181d68;
-  padding: 5px;
+  padding: 10px;
+  padding-top: 14px;
   border: 1px solid #4e4e4e34;
   border-radius: 5px;
   border-left: none;
   display: inline-block;
   cursor: pointer; }
 
-/* line 122, scss/home.scss */
+/* line 125, scss/home.scss */
 .section-person #bloc {
   display: none;
   vertical-align: top;
@@ -126,26 +129,27 @@ body {
   border: 1px solid #4e4e4e34;
   border-radius: 5px; }
 
-/* line 131, scss/home.scss */
+/* line 133, scss/home.scss */
 .section-person #bloc select {
-  padding: 7px 95px 7px 85px;
+  padding: 7px 150px 7px 150px;
   font-size: 18px;
   margin: -5px -20px -5px -5px; }
 
-/* line 138, scss/home.scss */
+/* line 139, scss/home.scss */
 .section-person .text {
   margin-bottom: 40px; }
 
-/* line 141, scss/home.scss */
+/* line 142, scss/home.scss */
 .section-person .form-control {
   text-align: center;
   width: 510px;
   height: 55px;
-  opacity: 0.5;
   font-size: 16px;
+  font-weight: 600;
+  color: #000;
   margin-top: 20px; }
   @media (max-width: 720px) {
-    /* line 141, scss/home.scss */
+    /* line 142, scss/home.scss */
     .section-person .form-control {
       width: 340px; } }
   /* line 12, scss/home.scss */
@@ -164,7 +168,7 @@ body {
   .section-person .form-control:-ms-input-placeholder {
     text-indent: 0px;
     transition: text-indent 300ms; }
-  /* line 155, scss/home.scss */
+  /* line 157, scss/home.scss */
   .section-person .form-control:focus {
     border-color: #380180;
     box-shadow: none; }
@@ -181,17 +185,17 @@ body {
     .section-person .form-control:focus:-ms-input-placeholder {
       text-indent: -700px; }
 
-/* line 163, scss/home.scss */
+/* line 165, scss/home.scss */
 .section-person .container-form {
   width: 510px;
   position: relative;
   margin: 0 auto; }
   @media (max-width: 720px) {
-    /* line 163, scss/home.scss */
+    /* line 165, scss/home.scss */
     .section-person .container-form {
       width: 340px; } }
 
-/* line 171, scss/home.scss */
+/* line 173, scss/home.scss */
 .section-person .label {
   display: none;
   position: absolute;
@@ -202,34 +206,34 @@ body {
   font-size: 11px;
   opacity: 0.5; }
 
-/* line 181, scss/home.scss */
+/* line 183, scss/home.scss */
 .section-person #lbl3 {
   left: 41%; }
   @media (max-width: 720px) {
-    /* line 181, scss/home.scss */
+    /* line 183, scss/home.scss */
     .section-person #lbl3 {
       left: 38%; } }
 
-/* line 191, scss/home.scss */
+/* line 193, scss/home.scss */
 .section-exp .icon {
   background: url("../img/icon2.png");
   background-size: cover; }
 
-/* line 196, scss/home.scss */
+/* line 198, scss/home.scss */
 .section-exp .custom-control {
   text-align: left;
   margin-bottom: 5px;
   cursor: pointer; }
   @media (max-width: 770px) {
-    /* line 196, scss/home.scss */
+    /* line 198, scss/home.scss */
     .section-exp .custom-control {
       margin-left: 30%; } }
 
-/* line 205, scss/home.scss */
+/* line 207, scss/home.scss */
 .section-exp input[type=checkbox] {
   display: none; }
 
-/* line 207, scss/home.scss */
+/* line 209, scss/home.scss */
 .section-exp input[type=checkbox] + label:before {
   content: "\2713";
   color: transparent;
@@ -246,34 +250,34 @@ body {
   transition: color ease .3s;
   cursor: pointer; }
 
-/* line 223, scss/home.scss */
+/* line 225, scss/home.scss */
 .section-exp label {
   cursor: pointer; }
 
-/* line 226, scss/home.scss */
+/* line 228, scss/home.scss */
 .section-exp input[type=checkbox]:checked + label:before {
   background: #181d68;
   color: #fff; }
 
-/* line 231, scss/home.scss */
+/* line 233, scss/home.scss */
 .section-exp .text {
   margin-bottom: 40px; }
 
-/* line 239, scss/home.scss */
+/* line 241, scss/home.scss */
 .section-abaut .icon {
   background: url("../img/icon3.png");
   background-size: cover; }
 
-/* line 244, scss/home.scss */
+/* line 246, scss/home.scss */
 .section-abaut .text {
   margin-bottom: 10px; }
 
-/* line 247, scss/home.scss */
+/* line 249, scss/home.scss */
 .section-abaut .text2 {
   margin: 0 auto;
   max-width: 500px; }
 
-/* line 251, scss/home.scss */
+/* line 253, scss/home.scss */
 .section-abaut textarea {
   resize: none;
   width: 480px;
@@ -281,7 +285,7 @@ body {
   margin-top: 30px;
   margin-bottom: 55px; }
   @media (max-width: 720px) {
-    /* line 251, scss/home.scss */
+    /* line 253, scss/home.scss */
     .section-abaut textarea {
       width: 340px; } }
   /* line 12, scss/home.scss */
@@ -308,7 +312,7 @@ body {
     font-size: 18px;
     text-indent: 0px;
     transition: text-indent 400ms; }
-  /* line 266, scss/home.scss */
+  /* line 268, scss/home.scss */
   .section-abaut textarea:focus {
     border-color: #380180;
     box-shadow: none; }
@@ -325,7 +329,7 @@ body {
     .section-abaut textarea:focus:-ms-input-placeholder {
       text-indent: -700px; }
 
-/* line 274, scss/home.scss */
+/* line 276, scss/home.scss */
 .section-abaut .btn-primary {
   background: #373fb4;
   border-color: #373fb4;
@@ -333,7 +337,7 @@ body {
   opacity: 0.9;
   font-size: 16px;
   margin-bottom: 60px; }
-  /* line 281, scss/home.scss */
+  /* line 283, scss/home.scss */
   .section-abaut .btn-primary:hover, .section-abaut .btn-primary:focus, .section-abaut .btn-primary:active {
     box-shadow: none;
     outline: 0px;
