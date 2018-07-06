@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <title>Document</title>
 </head>
@@ -39,8 +40,16 @@
         <input type="text" class="form-control mx-auto form" onfocus="getProp(0)"  onblur="deleteProp(0)" placeholder="ФИО">
         <p class="label">ФИО</p>
     </div>
-    <select class="form-control custom-select mx-auto" id="mysel"></select>
-    <div class="container-form">
+    <div class="my-sell">
+        <input type="text" readonly value="Год рождения" id="year">
+        <div onclick="Down()" id="up"> <i class="fas fa-chevron-up"></i> </div>
+        <div onclick="Up()" id="down"><i class="fas fa-chevron-down"></i> </div>
+    </div>
+        <div id="bloc">
+            <select name="year" size="7" id="mysel"></select>
+        </div>
+    
+<div class="container-form">
             <input type="text" class="form-control mx-auto form" onfocus="getProp(1)"  onblur="deleteProp(1)" placeholder="Место проживания">
             <p class="label"  id="lbl3">Место проживания</p>
     </div>

@@ -86,16 +86,55 @@
         background-size: cover;
     }
     @extend %section;
-    
-    #mysel{
-        text-align: center;
-        text-align-last: center; 
-        width: 310px;
-        height: 50px;
-        @media (max-width: 720px){
-            width: 240px;
-          }
+    .my-sell{
+        margin-top: 20px; 
     }
+    #year{
+        font-size: 16.5px;
+        border: 1px solid $darkGrayOpas;
+        border-radius: 5px; 
+        border-right: none;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 3px;
+        opacity: 0.5;
+    }
+    #up{
+        font-size: 12.5px;
+        color: $darkBlue3;
+        padding: 6px;
+        border: 1px solid $darkGrayOpas;
+        border-radius: 5px; 
+        border-left: none;display: none;
+        cursor: pointer;
+    }
+    #down{
+        font-size: 12.5px;
+        color: $darkBlue3;
+        padding: 5px;
+        border: 1px solid $darkGrayOpas;
+        border-radius: 5px; 
+        border-left: none;
+        display: inline-block;
+        cursor: pointer;
+    }
+    #bloc {
+        display: none;
+        vertical-align: top;
+        overflow: hidden;
+        border: solid grey 1px;
+        
+        border: 1px solid $darkGrayOpas;
+        border-radius: 5px; 
+      }
+      #bloc select {
+          
+        padding: 7px 95px 7px 85px;
+        font-size: 18px;
+        margin: -5px -20px -5px -5px;
+      }
+    
     .text{
         margin-bottom: 40px;
       }
