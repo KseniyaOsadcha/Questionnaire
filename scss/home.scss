@@ -102,9 +102,9 @@
     .form-control{
         text-align: center;
         width: 510px;
-        height: 50px;
+        height: 55px;
         opacity: 0.5;
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 20px;
         @media (max-width: 720px){
             width: 340px;
@@ -136,14 +136,15 @@
         left: 48%;
         bottom: 0;
         color: $black;
-        font-size: 12px;
+        font-size: 11px;
         opacity: 0.5;
-
     }
     #lbl3{
-        left: 38%;
+        left: 41%;
+        @media (max-width: 720px){
+            left: 38%;
+          }
     }
-    
 }
 // 4-тая секция 
 .section-exp{
@@ -161,6 +162,33 @@
             margin-left: 30%; 
         }
     }
+    
+input[type=checkbox] {display: none;}
+
+input[type=checkbox] + label:before {
+    content: "\2713";
+    color: transparent;
+    display: inline-block;
+    border: 1px solid $darkBlue3;
+    border-radius: 4px; 
+    font-size: 20px;    
+    line-height: 22px;
+    margin: -5px 5px 0 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
+input[type=checkbox]:checked + label:before {
+    background: $darkBlue3;   
+    color: $white;
+}
+
     .text{
         margin-bottom: 40px;
       }
@@ -197,6 +225,8 @@
             transition: text-indent 400ms;
           }
         &:focus{
+            border-color: $darkBlue;
+            box-shadow: none;
             @include placeholder {
               text-indent: -700px;
             }
@@ -209,10 +239,11 @@
         opacity: 0.9;
         font-size: 16px;
         margin-bottom: 60px;
-        &:hover{
-        box-shadow: none;
-        background: $darkBlue3;
-        border-color: $darkBlue3;
+        &:hover, &:focus, &:active{
+            box-shadow: none;
+            outline: 0px;
+            background: $darkBlue3;
+            border-color: $darkBlue3;
         }
     }
 }

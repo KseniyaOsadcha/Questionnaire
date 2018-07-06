@@ -98,9 +98,9 @@ body {
 .section-person .form-control {
   text-align: center;
   width: 510px;
-  height: 50px;
+  height: 55px;
   opacity: 0.5;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 20px; }
   @media (max-width: 720px) {
     /* line 102, scss/home.scss */
@@ -157,47 +157,81 @@ body {
   left: 48%;
   bottom: 0;
   color: #000;
-  font-size: 12px;
+  font-size: 11px;
   opacity: 0.5; }
 
-/* line 143, scss/home.scss */
+/* line 142, scss/home.scss */
 .section-person #lbl3 {
-  left: 38%; }
+  left: 41%; }
+  @media (max-width: 720px) {
+    /* line 142, scss/home.scss */
+    .section-person #lbl3 {
+      left: 38%; } }
 
-/* line 151, scss/home.scss */
+/* line 152, scss/home.scss */
 .section-exp .icon {
   background: url("../img/icon2.png");
   background-size: cover; }
 
-/* line 156, scss/home.scss */
+/* line 157, scss/home.scss */
 .section-exp .custom-control {
   text-align: left;
   margin-bottom: 5px;
   cursor: pointer; }
   @media (max-width: 770px) {
-    /* line 156, scss/home.scss */
+    /* line 157, scss/home.scss */
     .section-exp .custom-control {
       margin-left: 30%; } }
 
-/* line 164, scss/home.scss */
+/* line 166, scss/home.scss */
+.section-exp input[type=checkbox] {
+  display: none; }
+
+/* line 168, scss/home.scss */
+.section-exp input[type=checkbox] + label:before {
+  content: "\2713";
+  color: transparent;
+  display: inline-block;
+  border: 1px solid #181d68;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 22px;
+  margin: -5px 5px 0 0;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+  transition: color ease .3s;
+  cursor: pointer; }
+
+/* line 184, scss/home.scss */
+.section-exp label {
+  cursor: pointer; }
+
+/* line 187, scss/home.scss */
+.section-exp input[type=checkbox]:checked + label:before {
+  background: #181d68;
+  color: #fff; }
+
+/* line 192, scss/home.scss */
 .section-exp .text {
   margin-bottom: 40px; }
 
-/* line 172, scss/home.scss */
+/* line 200, scss/home.scss */
 .section-abaut .icon {
   background: url("../img/icon3.png");
   background-size: cover; }
 
-/* line 177, scss/home.scss */
+/* line 205, scss/home.scss */
 .section-abaut .text {
   margin-bottom: 10px; }
 
-/* line 180, scss/home.scss */
+/* line 208, scss/home.scss */
 .section-abaut .text2 {
   margin: 0 auto;
   max-width: 500px; }
 
-/* line 184, scss/home.scss */
+/* line 212, scss/home.scss */
 .section-abaut textarea {
   resize: none;
   width: 480px;
@@ -205,7 +239,7 @@ body {
   margin-top: 30px;
   margin-bottom: 55px; }
   @media (max-width: 720px) {
-    /* line 184, scss/home.scss */
+    /* line 212, scss/home.scss */
     .section-abaut textarea {
       width: 340px; } }
   /* line 12, scss/home.scss */
@@ -232,20 +266,24 @@ body {
     font-size: 18px;
     text-indent: 0px;
     transition: text-indent 400ms; }
-  /* line 12, scss/home.scss */
-  .section-abaut textarea:focus::-webkit-input-placeholder {
-    text-indent: -700px; }
-  /* line 13, scss/home.scss */
-  .section-abaut textarea:focus:-moz-placeholder {
-    text-indent: -700px; }
-  /* line 14, scss/home.scss */
-  .section-abaut textarea:focus::-moz-placeholder {
-    text-indent: -700px; }
-  /* line 15, scss/home.scss */
-  .section-abaut textarea:focus:-ms-input-placeholder {
-    text-indent: -700px; }
+  /* line 227, scss/home.scss */
+  .section-abaut textarea:focus {
+    border-color: #380180;
+    box-shadow: none; }
+    /* line 12, scss/home.scss */
+    .section-abaut textarea:focus::-webkit-input-placeholder {
+      text-indent: -700px; }
+    /* line 13, scss/home.scss */
+    .section-abaut textarea:focus:-moz-placeholder {
+      text-indent: -700px; }
+    /* line 14, scss/home.scss */
+    .section-abaut textarea:focus::-moz-placeholder {
+      text-indent: -700px; }
+    /* line 15, scss/home.scss */
+    .section-abaut textarea:focus:-ms-input-placeholder {
+      text-indent: -700px; }
 
-/* line 205, scss/home.scss */
+/* line 235, scss/home.scss */
 .section-abaut .btn-primary {
   background: #373fb4;
   border-color: #373fb4;
@@ -253,8 +291,9 @@ body {
   opacity: 0.9;
   font-size: 16px;
   margin-bottom: 60px; }
-  /* line 212, scss/home.scss */
-  .section-abaut .btn-primary:hover {
+  /* line 242, scss/home.scss */
+  .section-abaut .btn-primary:hover, .section-abaut .btn-primary:focus, .section-abaut .btn-primary:active {
     box-shadow: none;
+    outline: 0px;
     background: #181d68;
     border-color: #181d68; }
