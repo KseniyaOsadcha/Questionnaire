@@ -35,11 +35,23 @@
   <section class="wrap section-person">
     <div class="icon mx-auto"></div>
     <div class="text" id="ls">Личная информация</div>
-    <input type="text" class="form-control mx-auto"  placeholder="ФИО">
+    <div class="container-form">
+        <input type="text" class="form-control mx-auto form" onfocus="getProp(0)"  onblur="deleteProp(0)" placeholder="ФИО">
+        <p class="label">ФИО</p>
+    </div>
     <select class="form-control custom-select mx-auto" id="mysel"></select>
-    <input type="text" class="form-control mx-auto" id="location" placeholder="Место проживания">
-    <input type="text" class="form-control mx-auto"  placeholder="Skype">
-    <input type="email" class="form-control mx-auto" aria-describedby="emailHelp" placeholder="E-mail">
+    <div class="container-form">
+            <input type="text" class="form-control mx-auto form" onfocus="getProp(1)"  onblur="deleteProp(1)" placeholder="Место проживания">
+            <p class="label">Место проживания</p>
+    </div>
+    <div class="container-form">
+            <input type="text" class="form-control mx-auto form" onfocus="getProp(2)"  onblur="deleteProp(2)" placeholder="Skype">
+            <p class="label">Skype</p>
+    </div>
+    <div class="container-form">
+            <input type="email" class="form-control mx-auto form" aria-describedby="emailHelp" onfocus="getProp(3)"  onblur="deleteProp(3)" placeholder="E-mail">
+            <p class="label">E-mail</p>
+    </div>
   </section>
   <section class="wrap section-exp">
       <div class="icon mx-auto"></div>
