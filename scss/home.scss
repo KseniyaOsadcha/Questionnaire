@@ -151,6 +151,7 @@
             width: 340px;
           }
         @include placeholder {
+            opacity: 0.5;
             text-indent: 0px;
             transition: text-indent 300ms;
           }

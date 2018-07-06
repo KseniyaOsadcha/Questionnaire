@@ -154,21 +154,25 @@ body {
       width: 340px; } }
   /* line 12, scss/home.scss */
   .section-person .form-control::-webkit-input-placeholder {
+    opacity: 0.5;
     text-indent: 0px;
     transition: text-indent 300ms; }
   /* line 13, scss/home.scss */
   .section-person .form-control:-moz-placeholder {
+    opacity: 0.5;
     text-indent: 0px;
     transition: text-indent 300ms; }
   /* line 14, scss/home.scss */
   .section-person .form-control::-moz-placeholder {
+    opacity: 0.5;
     text-indent: 0px;
     transition: text-indent 300ms; }
   /* line 15, scss/home.scss */
   .section-person .form-control:-ms-input-placeholder {
+    opacity: 0.5;
     text-indent: 0px;
     transition: text-indent 300ms; }
-  /* line 157, scss/home.scss */
+  /* line 158, scss/home.scss */
   .section-person .form-control:focus {
     border-color: #380180;
     box-shadow: none; }
@@ -185,17 +189,17 @@ body {
     .section-person .form-control:focus:-ms-input-placeholder {
       text-indent: -700px; }
 
-/* line 165, scss/home.scss */
+/* line 166, scss/home.scss */
 .section-person .container-form {
   width: 510px;
   position: relative;
   margin: 0 auto; }
   @media (max-width: 720px) {
-    /* line 165, scss/home.scss */
+    /* line 166, scss/home.scss */
     .section-person .container-form {
       width: 340px; } }
 
-/* line 173, scss/home.scss */
+/* line 174, scss/home.scss */
 .section-person .label {
   display: none;
   position: absolute;
@@ -206,34 +210,34 @@ body {
   font-size: 11px;
   opacity: 0.5; }
 
-/* line 183, scss/home.scss */
+/* line 184, scss/home.scss */
 .section-person #lbl3 {
   left: 41%; }
   @media (max-width: 720px) {
-    /* line 183, scss/home.scss */
+    /* line 184, scss/home.scss */
     .section-person #lbl3 {
       left: 38%; } }
 
-/* line 193, scss/home.scss */
+/* line 194, scss/home.scss */
 .section-exp .icon {
   background: url("../img/icon2.png");
   background-size: cover; }
 
-/* line 198, scss/home.scss */
+/* line 199, scss/home.scss */
 .section-exp .custom-control {
   text-align: left;
   margin-bottom: 5px;
   cursor: pointer; }
   @media (max-width: 770px) {
-    /* line 198, scss/home.scss */
+    /* line 199, scss/home.scss */
     .section-exp .custom-control {
       margin-left: 30%; } }
 
-/* line 207, scss/home.scss */
+/* line 208, scss/home.scss */
 .section-exp input[type=checkbox] {
   display: none; }
 
-/* line 209, scss/home.scss */
+/* line 210, scss/home.scss */
 .section-exp input[type=checkbox] + label:before {
   content: "\2713";
   color: transparent;
@@ -250,34 +254,34 @@ body {
   transition: color ease .3s;
   cursor: pointer; }
 
-/* line 225, scss/home.scss */
+/* line 226, scss/home.scss */
 .section-exp label {
   cursor: pointer; }
 
-/* line 228, scss/home.scss */
+/* line 229, scss/home.scss */
 .section-exp input[type=checkbox]:checked + label:before {
   background: #181d68;
   color: #fff; }
 
-/* line 233, scss/home.scss */
+/* line 234, scss/home.scss */
 .section-exp .text {
   margin-bottom: 40px; }
 
-/* line 241, scss/home.scss */
+/* line 242, scss/home.scss */
 .section-abaut .icon {
   background: url("../img/icon3.png");
   background-size: cover; }
 
-/* line 246, scss/home.scss */
+/* line 247, scss/home.scss */
 .section-abaut .text {
   margin-bottom: 10px; }
 
-/* line 249, scss/home.scss */
+/* line 250, scss/home.scss */
 .section-abaut .text2 {
   margin: 0 auto;
   max-width: 500px; }
 
-/* line 253, scss/home.scss */
+/* line 254, scss/home.scss */
 .section-abaut textarea {
   resize: none;
   width: 480px;
@@ -285,7 +289,7 @@ body {
   margin-top: 30px;
   margin-bottom: 55px; }
   @media (max-width: 720px) {
-    /* line 253, scss/home.scss */
+    /* line 254, scss/home.scss */
     .section-abaut textarea {
       width: 340px; } }
   /* line 12, scss/home.scss */
@@ -312,7 +316,7 @@ body {
     font-size: 18px;
     text-indent: 0px;
     transition: text-indent 400ms; }
-  /* line 268, scss/home.scss */
+  /* line 269, scss/home.scss */
   .section-abaut textarea:focus {
     border-color: #380180;
     box-shadow: none; }
@@ -329,7 +333,7 @@ body {
     .section-abaut textarea:focus:-ms-input-placeholder {
       text-indent: -700px; }
 
-/* line 276, scss/home.scss */
+/* line 277, scss/home.scss */
 .section-abaut .btn-primary {
   background: #373fb4;
   border-color: #373fb4;
@@ -337,7 +341,7 @@ body {
   opacity: 0.9;
   font-size: 16px;
   margin-bottom: 60px; }
-  /* line 283, scss/home.scss */
+  /* line 284, scss/home.scss */
   .section-abaut .btn-primary:hover, .section-abaut .btn-primary:focus, .section-abaut .btn-primary:active {
     box-shadow: none;
     outline: 0px;
